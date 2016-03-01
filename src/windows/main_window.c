@@ -192,8 +192,8 @@ static void window_load(Window *window){
   layer_add_child(window_layer, text_layer_get_layer(s_fg_text_layer));
     
   // Load and set custom font
-  s_font_bold = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_EVERSON_MONO_BOLD_14));
-  s_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_EVERSON_MONO_14));
+  s_font_bold = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_VERA_MONO_BOLD_14));
+  s_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_VERA_MONO_14));
   text_layer_set_font(s_bg_text_layer, s_font);
   text_layer_set_font(s_fg_text_layer, s_font_bold);  
 }

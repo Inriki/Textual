@@ -3,24 +3,24 @@
     "capabilities": [
         ""
     ],
-    "companyName": "inriki@gmail.com",
+    "companyName": "inriki",
     "enableMultiJS": true,
     "longName": "Textual",
     "projectType": "native",
     "resources": {
         "media": [
             {
-                "file": "fonts/Everson Mono.ttf",
-                "name": "EVERSON_MONO_14",
+                "file": "fonts/VeraMono.ttf",
+                "name": "FONT_VERA_MONO_14",
                 "targetPlatforms": null,
-                "trackingAdjust": 1,
+                "trackingAdjust": 2,
                 "type": "font"
             },
             {
-                "file": "fonts/Everson Mono Bold.ttf",
-                "name": "EVERSON_MONO_BOLD_14",
+                "file": "fonts/VeraMoBd.ttf",
+                "name": "FONT_VERA_MONO_BOLD_14",
                 "targetPlatforms": null,
-                "trackingAdjust": 1,
+                "trackingAdjust": 2,
                 "type": "font"
             }
         ]
