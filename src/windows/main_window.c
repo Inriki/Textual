@@ -36,7 +36,7 @@ static int calcularOffset1(int hora) {
   if (hora == 1) return NUM_COLS;
   if (hora == 2) return NUM_COLS * 2;
   if (hora == 10) return NUM_COLS * 3;   
-  if (hora == 12) return NUM_COLS * 4;
+  if (hora == 0) return NUM_COLS * 4;
   return 0;
 }
 
