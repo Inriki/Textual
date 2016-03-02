@@ -28,10 +28,11 @@
     "sdkVersion": "3",
     "shortName": "Textual",
     "targetPlatforms": [
-        "basalt"
+        "basalt",
+        "chalk"
     ],
     "uuid": "4028696e-5c82-4d60-b3e3-f5991bd3814a",
-    "versionLabel": "1.02",
+    "versionLabel": "1.03",
     "watchapp": {
         "watchface": true
     }
